@@ -53,7 +53,7 @@ public class BonusServiceTest {
     void shouldCalculateForNotRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
-        // подготавливаем данные:
+        //  подготавливаем данные:
         long amount = 1_000_000;
         boolean registered = false;
         long expected = 500;
